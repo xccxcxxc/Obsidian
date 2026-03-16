@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "QuoteFix";
+  src:
+    local("Noto Serif SC"),
+    local("Source Han Serif SC"),
+    local("Songti SC"),
+    local("STSong"),
+    local("SimSun");
+  unicode-range: U+201C, U+201D, U+2018, U+2019;
+}
+
+/* 编辑区 */
+.markdown-source-view.mod-cm6 .cm-content {
+  font-family: "QuoteFix", var(--font-text);
+}
+
+/* 阅读视图 */
+.markdown-reading-view,
+.markdown-preview-view {
+  font-family: "QuoteFix", var(--font-text);
+}
