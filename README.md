@@ -1,22 +1,14 @@
 # Obsidian
 
-这个仓库用于存放我给 Obsidian 准备的各种文件、片段和配置。
+这个仓库用于存放 Obsidian 相关文件。
 
-目前仓库里的 `quote-fix.css`，用于解决默认字体导致中文双引号无法区分左右的问题。
-下面这份说明**仅针对这个 CSS 文件的使用方法**：
+目前包含：
+- `quote-fix.css`：解决中文双引号无法区分左右的问题
 
-操作步骤
-
-打开 Obsidian
-
-进入 设置 → 外观 → CSS snippets
-
-点文件夹图标，进入 snippets 文件夹
-
-新建一个文件，比如 quote-fix.css
-
-粘贴下面这段内容
-
-回到 Obsidian，把这个 snippet 打开
-
-后续我还会继续往这个仓库里添加别的文件。
+使用方法（仅适用于 `quote-fix.css`）：
+1. 打开 Obsidian
+2. 进入 设置 → 外观 → CSS snippets
+3. 打开 snippets 文件夹
+4. 新建 `quote-fix.css`
+5. 粘贴文件内容
+6. 回到 Obsidian 并启用该 snippet
